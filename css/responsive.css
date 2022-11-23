@@ -1,0 +1,187 @@
+@media (width < 1440px){
+    .aboutusimg{
+        height: 700px;
+    }
+    .sor{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (width < 1300px){
+    .sor{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .box{
+        width: 500px;
+    }
+}
+
+@media (width < 1280px){ 
+    nav ul{
+        margin-left: 10%;
+    }
+    .bottom{
+        flex-direction: column;
+    }
+    .image{
+        width: 100%;
+    }
+    .storytext{
+        width: 93%;
+    }
+    .teljesoldal{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutusimg{
+        width: 100%;
+        margin: 60px;
+    }
+    .aboutustext{
+        width: 100%;
+        margin: 60px;
+    }
+    .signuppage p{
+        font-size: 20px;
+    }
+}
+
+@media (width < 1160px){
+    .footer{
+        gap: 100px;
+    }
+    .signuppage p{
+        font-size: 17px;
+    }
+    
+}
+
+@media (width < 1040px){
+    .teljesoldal{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutusimg{
+        width: 100%;
+        margin: 60px;
+    }
+    .aboutustext{
+        width: 100%;
+        margin: 60px;
+    }
+    .footer{
+        margin-left: -100px;
+        margin-right: -100px;
+        margin-bottom:  -100px;
+    }
+    .signuppage h2{
+        font-size: 20px;
+    }
+    
+}
+
+@media (width < 1000px){
+    .signuppage{
+        flex-direction: column;
+        height: 600px;
+        width: 600px;
+        align-items: center;
+    }
+}
+
+@media (width < 910px){
+    .footer{
+        gap: 60px;
+    }
+    .lukapicture{
+        height: 800px;
+        margin-top: 0px;
+    }
+    .storytext{
+        font-size: 30px;
+        width: 93%;
+    }
+    .signuppage{
+        flex-direction: column;
+        height: 600px;
+        width: 400px;
+        align-items: center;
+    }
+}
+
+@media (width < 800px){
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        font-size: 25px;
+        padding: 50px;
+    }
+    .title{
+        justify-content: center;
+        align-items: center;
+    }
+    .box{
+        width: 350px;
+    }
+    .aboutustext p{
+        font-size: 18px;
+    }
+}
+
+@media (width < 700px){
+    .allnew{
+        font-size: 50px;
+    }
+    .le{
+    font-size: 50px;
+    }
+    .lukapicture{
+        height: 460px;
+    }
+    p{
+        font-size: 24px;
+    }
+}
+
+@media (width < 500px){
+    .lukapicture{
+        height: 810px;
+    }
+    .allnew{
+        font-size: 80px;
+    }
+    .le{
+        font-size: 80px;
+    }
+}
+
+@media (width<1150px){
+    .menu{
+        display: block;
+        margin-top: 13px;
+    }
+    .topnav{
+        display: none;
+    }
+    nav ul{
+        position: absolute;
+        flex-direction: column;
+        top: 70px;
+        right: 0;
+        background-color: black;
+        margin: 0;
+        align-items: center;
+        transform: translateX(300%);
+        transition: all 0.2s ease-in-out;
+    }
+    nav ul li{
+        padding: 10px 35px ;
+    }
+    .ulneve-active{
+        transform: translateX(0);
+    }
+}
